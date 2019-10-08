@@ -1,0 +1,31 @@
+A typical Divide and Conquer algorithm solves a problem using following three steps.
+
+1. Divide: Break the given problem into subproblems of same type.
+2. Conquer: Recursively solve these subproblems
+3. Combine: Appropriately combine the answers
+
+
+Following are the some standard algorithms of divide & conquer.
+
+1.) Binary search
+
+2.) Quick sort
+
+3.) Merge sort
+
+4.) Closest pair of points: The problem is to find the closest pair of points in a set of points in x-y plane. The problem can be solved in O(n^2) time by calculating distances of 
+every pair of points and comparing the distances to find the minimum. The Divide and Conquer algorithm solves the problem in O(nLogn) time.
+
+5.) Strassen’s Algorithm: It is an efficient algorithm to multiply two matrices. A simple methodto multiply two matrices need 3 nested loops and is O(n^3). Strassen’s algorithm multiplies
+two matrices in O(n^2.8974) time.
+
+6.) Cooley–Tukey Fast Fourier Transform (FFT) algorithm
+
+7.) Karatsuba algorithm for fast multiplication
+
+
+------------------------- Difference b/w divide and conquer & dynamic programming -------------------------------
+
+Both paradigms (D & C and DP) divide the given problem into subproblems and solve subproblems. How to choose one of them for a given problem? Divide and Conquer should be used when same 
+subproblems are not evaluated many times. Otherwise Dynamic Programming or Memoization should be used. For example, Binary Search is a Divide and Conquer algorithm, we never evaluate the 
+same subproblems again. On the other hand, for calculating nth Fibonacci number, Dynamic Programming should be preferred.

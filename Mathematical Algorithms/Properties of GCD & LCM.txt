@@ -1,0 +1,9 @@
+
+1.) Distributive property of GCD & LCM:
+GCD(LCM (x, y), LCM (x, z)) = LCM(x, GCD(y, z))
+
+2.) gcd(a, b) = gcd(a-b, b) given a > b
+
+3.) GCD(f(n, x), f(n, y)) = f(n, GCD(x, y)).
+
+4.) For given N, the number of ordered pairs A <= N, B <= N, such that gcd(A, B) = B is: summation(floor(n/i)) for i = 1 to n
